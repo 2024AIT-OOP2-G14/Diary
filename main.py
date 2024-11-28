@@ -6,12 +6,14 @@ from diaries.takumiDiary import takumiDiary
 
 # ↓のリストには、メンバーの各日記が格納されます。
 from diaries.kurokawaDiary import kurokawaDiary
+from diaries.HiyoshiDiary import HiyoshiDiary
 
 # ↓のリストには、メンバーの各日記が格納されます。
 diaries = [DiarySample(),
            ShibataDiary(),
            takumiDiary(),
     kurokawaDiary(),
+    HiyoshiDiary()
 ]
 
 for d in diaries:
