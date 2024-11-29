@@ -3,8 +3,6 @@ from diaries.ShibataDiary import ShibataDiary
 from diaries.takumiDiary import takumiDiary
 from diaries.kurokawaDiary import kurokawaDiary
 from diaries.AtamaDiary import AtamaDiary
-
-# ↓のリストには、メンバーの各日記が格納されます。
 from diaries.HiyoshiDiary import HiyoshiDiary
 from diaries.SatoDiary import SatoDiary
 
@@ -14,8 +12,8 @@ diaries = [DiarySample(),
            takumiDiary(),
            kurokawaDiary(),
            SatoDiary(),
-           HiyoshiDiary()
-           AtamaDiary(),
+           HiyoshiDiary(),
+           AtamaDiary()
 ]
 
 for d in diaries:
